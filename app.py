@@ -5,7 +5,7 @@ import json
 import base64
 
 import streamlit as st
-import anthropic as anthropic
+import anthropic 
 
 # ---------------------------------------------------------------------------
 # Setup
