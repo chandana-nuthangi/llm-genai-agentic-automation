@@ -5,7 +5,7 @@
 Upload an invoice, and this tool reads it with AI, pulls out the key fields (number, date, vendor, total…), shows them as a table, and lets you ask questions about the document in plain language. Built to solve a real, boring, expensive problem: manual data entry from invoices.
 
 🔗 **Live demo:** _add your Streamlit link here once deployed_
-👩‍💻 Part of my **from-floor-to-data** portfolio — warehouse operations experience meets data & AI.
+📦 Part of [**llm-genai-agentic-automation**](https://github.com/chandana-nuthangi/llm-genai-agentic-automation) — a growing collection of AI projects built to solve real-world problems.
 
 ---
 
@@ -61,6 +61,10 @@ export GEMINI_API_KEY="your-key-here"
 # 3. Run
 streamlit run invoice_app.py
 ```
+
+## 👩‍💻 About
+
+This project is part of a larger repo where I'm building practical AI and GenAI applications — each subfolder tackles a different real-world problem using LLMs and agentic workflows. More projects will be added over time.
 
 ---
 
