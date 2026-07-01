@@ -4,7 +4,7 @@
 
 Upload an invoice, and this tool reads it with AI, pulls out the key fields (number, date, vendor, total…), shows them as a table, and lets you ask questions about the document in plain language. Built to solve a real, boring, expensive problem: manual data entry from invoices.
 
-🔗 **Live demo:** [Invoice-Extractor](https://llm-genai-agentic-automation-o9saftxktmzxccegcihp6v.streamlit.app/)
+🔗 **Live demo:** [Try it live](https://llm-genai-agentic-automation-o9saftxktmzxccegcihp6v.streamlit.app/)
 📦 Part of [**llm-genai-agentic-automation**](https://github.com/chandana-nuthangi/llm-genai-agentic-automation) — a growing collection of AI projects built to solve real-world problems.
 
 ---
