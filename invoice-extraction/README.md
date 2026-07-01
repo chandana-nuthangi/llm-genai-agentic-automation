@@ -22,9 +22,9 @@ Small businesses drown in PDFs — invoices, delivery notes, receipts — and so
 
 ## 🖼️ Screenshots
 
-| Upload & extract | Structured output | Ask a question |
-|---|---|---|
-| ![Home](screenshots/01-home.png) | ![Extracted table](screenshots/02-extracted.png) | ![Q&A](screenshots/03-qa.png) |
+| Upload & extract | Extracted results |
+|---|---|
+| ![Home](images/homepage.png) | ![Extracted table](images/results.png) |
 
 ## 🛠️ Tech stack
 
@@ -42,6 +42,10 @@ Small businesses drown in PDFs — invoices, delivery notes, receipts — and so
 
 No separate PDF-parsing library is needed — the model reads the document itself, which keeps the code small and robust.
 
+## 🧾 Try it out
+
+A sample invoice is included at `samples/sample_invoice.pdf` — upload it after running the app to see the extractor in action.
+
 ## 🚀 Run it locally
 
 ```bash
@@ -55,12 +59,8 @@ $env:GEMINI_API_KEY = "your-key-here"
 export GEMINI_API_KEY="your-key-here"
 
 # 3. Run
-streamlit run app.py
+streamlit run invoice_app.py
 ```
-
-## 👩‍💻 About
-
-I'm building data & AI tools that solve practical operational problems — bringing together 2+ years of hands-on warehouse and logistics experience (Amazon, Kuehne+Nagel) with a data science background. **From the floor to the data.**
 
 ---
 
